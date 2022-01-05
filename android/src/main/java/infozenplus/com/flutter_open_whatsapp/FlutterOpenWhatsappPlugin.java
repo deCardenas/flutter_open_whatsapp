@@ -14,15 +14,12 @@ import io.flutter.plugin.common.MethodCall;
 import io.flutter.plugin.common.MethodChannel;
 import io.flutter.plugin.common.MethodChannel.MethodCallHandler;
 import io.flutter.plugin.common.MethodChannel.Result;
-import io.flutter.plugin.common.PluginRegistry.Registrar;
 
 /** FlutterOpenWhatsappPlugin */
 public class FlutterOpenWhatsappPlugin implements MethodCallHandler, FlutterPlugin, ActivityAware {
 
   Activity context;
   MethodChannel methodChannel;
-
-  /** Plugin registration. */
 
   @Override
   public void onAttachedToEngine(@NonNull @org.jetbrains.annotations.NotNull FlutterPlugin.FlutterPluginBinding binding) {
@@ -45,6 +42,8 @@ public class FlutterOpenWhatsappPlugin implements MethodCallHandler, FlutterPlug
         String mobileNo = call.argument("mobileNo");
         String message = call.argument("message");
         //https://wa.me/919167370647?text=Yes%20We'll%20do%20this%20in%20frag4%20inOCW
+        assert mobileNo != null;
+        assert message != null;
         String url = "https://wa.me/" + mobileNo.trim() + "?text=" + message.trim();
         i.setPackage("com.whatsapp");
         i.setData(Uri.parse(url));
