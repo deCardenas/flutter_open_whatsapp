@@ -13,7 +13,7 @@ import io.flutter.plugin.common.MethodChannel.Result;
 import io.flutter.plugin.common.PluginRegistry.Registrar;
 
 /** FlutterOpenWhatsappPlugin */
-public class FlutterOpenWhatsappPlugin implements MethodCallHandler {
+public class FlutterOpenWhatsappPlugin extends FlutterPlugin implements MethodCallHandler {
 
   Activity context;
   MethodChannel methodChannel;
