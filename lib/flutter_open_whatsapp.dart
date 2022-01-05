@@ -3,9 +3,6 @@ import 'dart:async';
 import 'package:flutter/services.dart';
 
 class FlutterOpenWhatsapp {
-  String mobileNo = "7985533639";
-  String msg = "Hello";
-
   static const MethodChannel _channel =
       const MethodChannel('flutter_open_whatsapp');
 
@@ -14,7 +11,8 @@ class FlutterOpenWhatsapp {
     return version;
   }
 
-  static Future<Null> sendSingleMessage(mobileNo, msg) async{
-    await _channel.invokeMethod('sendSingleMessage', {'mobileNo': mobileNo, 'message': msg});
+  static Future<Null> sendSingleMessage(String mobileNo, String msg) async {
+    await _channel.invokeMethod(
+        'sendSingleMessage', {'mobileNo': mobileNo, 'message': msg});
   }
 }

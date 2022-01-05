@@ -48,12 +48,12 @@ class _MyAppState extends State<MyApp> {
           title: const Text('Plugin example app'),
         ),
         body: Center(
-          child: MaterialButton(onPressed: (){
+            child: MaterialButton(
+          onPressed: () {
             FlutterOpenWhatsapp.sendSingleMessage("918179015345", "Hello");
           },
-            child: Text('Running on: $_platformVersion\n'),
-          )
-        ),
+          child: Text('Running on: $_platformVersion\n'),
+        )),
       ),
     );
   }
