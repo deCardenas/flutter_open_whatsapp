@@ -14,11 +14,18 @@
   <component name="ChangeListManager">
     <list default="true" id="d6301f5f-d45c-42ff-94f0-313e72675153" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/java/infozenplus/com/flutter_open_whatsapp/FlutterOpenWhatsappPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/java/infozenplus/com/flutter_open_whatsapp/FlutterOpenWhatsappPlugin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/.flutter-plugins-dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/example/.flutter-plugins-dependencies" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/example/android/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/example/android/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/android/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/example/android/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/android/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/example/android/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/example/android/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/app/src/main/java/infozenplus/com/flutter_open_whatsapp_example/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/example/android/app/src/main/java/infozenplus/com/flutter_open_whatsapp_example/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/example/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/example/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/test/widget_test.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/flutter_open_whatsapp.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/flutter_open_whatsapp.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/flutter_open_whatsapp_test.dart" beforeDir="false" afterPath="$PROJECT_DIR$/test/flutter_open_whatsapp_test.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +47,7 @@
     <property name="dart.analysis.tool.window.force.activate" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="io.flutter.reload.alreadyRun" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Unimaq.Mobile" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -56,5 +63,27 @@
       <updated>1558971404208</updated>
     </task>
     <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1139" y="555" key="FileChooserDialogImpl" timestamp="1641419926412">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state x="1139" y="555" key="FileChooserDialogImpl/0.0.3440.1400@0.0.3440.1400" timestamp="1641419926412" />
+    <state width="1318" height="288" key="GridCell.Tab.0.bottom" timestamp="1641486498572">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state width="1318" height="288" key="GridCell.Tab.0.bottom/0.0.3440.1400@0.0.3440.1400" timestamp="1641486498572" />
+    <state width="1318" height="288" key="GridCell.Tab.0.center" timestamp="1641486498572">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state width="1318" height="288" key="GridCell.Tab.0.center/0.0.3440.1400@0.0.3440.1400" timestamp="1641486498572" />
+    <state width="1318" height="288" key="GridCell.Tab.0.left" timestamp="1641486498572">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state width="1318" height="288" key="GridCell.Tab.0.left/0.0.3440.1400@0.0.3440.1400" timestamp="1641486498572" />
+    <state width="1318" height="288" key="GridCell.Tab.0.right" timestamp="1641486498572">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state width="1318" height="288" key="GridCell.Tab.0.right/0.0.3440.1400@0.0.3440.1400" timestamp="1641486498572" />
   </component>
 </project>

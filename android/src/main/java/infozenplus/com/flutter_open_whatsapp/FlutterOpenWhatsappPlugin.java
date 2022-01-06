@@ -35,21 +35,16 @@ public class FlutterOpenWhatsappPlugin implements MethodCallHandler, FlutterPlug
     if (call.method.equals("getPlatformVersion")) {
       result.success("Android " + android.os.Build.VERSION.RELEASE);
     } else if(call.method.equalsIgnoreCase("sendSingleMessage")) {
-
-      PackageManager packageManager = context.getPackageManager();
       Intent i = new Intent(Intent.ACTION_VIEW);
       try {
         String mobileNo = call.argument("mobileNo");
         String message = call.argument("message");
-        //https://wa.me/919167370647?text=Yes%20We'll%20do%20this%20in%20frag4%20inOCW
         assert mobileNo != null;
         assert message != null;
         String url = "https://wa.me/" + mobileNo.trim() + "?text=" + message.trim();
         i.setPackage("com.whatsapp");
         i.setData(Uri.parse(url));
-        if (i.resolveActivity(packageManager) != null) {
-          context.startActivity(i);
-        }
+        context.startActivity(i);
       } catch (Exception e) {
         e.printStackTrace();
       }
